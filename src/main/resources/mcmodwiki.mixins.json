@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.MCMODWIKI.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mcmodwiki.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "GUIKeyDownMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
